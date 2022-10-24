@@ -1,0 +1,15 @@
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\bin\Debug\net6.0\Jumper.exe
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\bin\Debug\net6.0\Jumper.deps.json
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\bin\Debug\net6.0\Jumper.runtimeconfig.json
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\bin\Debug\net6.0\Jumper.dll
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\bin\Debug\net6.0\Jumper.pdb
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\obj\Debug\net6.0\Jumper.csproj.AssemblyReference.cache
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\obj\Debug\net6.0\Jumper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\obj\Debug\net6.0\Jumper.AssemblyInfoInputs.cache
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\obj\Debug\net6.0\Jumper.AssemblyInfo.cs
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\obj\Debug\net6.0\Jumper.csproj.CoreCompileInputs.cache
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\obj\Debug\net6.0\Jumper.dll
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\obj\Debug\net6.0\refint\Jumper.dll
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\obj\Debug\net6.0\Jumper.pdb
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\obj\Debug\net6.0\Jumper.genruntimeconfig.cache
+C:\Users\strob\OneDrive\Documents\GitHub\Jumper\obj\Debug\net6.0\ref\Jumper.dll

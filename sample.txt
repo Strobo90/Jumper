@@ -1,0 +1,13 @@
+// List of Buildings at BYU -Idaho
+// The code will check for letters that the player inputs from this list of buildings. ]
+// letters here if guessed  for the first time will appear onthe terminal
+
+spori
+austin
+rigby
+mccay
+stc
+ricks
+hart
+smith
+hinckely
