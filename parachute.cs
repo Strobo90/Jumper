@@ -1,12 +1,11 @@
 using System;
 using System.Collections.Generic;
-
 namespace Jumper_Idaho
 {
-    public class parachute{
+    public class parachute{   // creates the pachute class.
         private List<string> Parachute = new List<string>();
         private int count;
-        private int trueTries = 0;
+        private int trueTries = 0; // tries are intialize to be zero and set as private so that they cant be change # encupsulated
 
 
         public parachute()
