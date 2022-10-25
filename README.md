@@ -8,3 +8,7 @@ Rules
 The puzzle is a secret word randomly chosen from a list.
 The player guesses a letter in the puzzle.
 If the guess is correct, the letter is revealed else part of the parachute disembarks
+#  References 
+the-juxt
+C# corner
+Canvas

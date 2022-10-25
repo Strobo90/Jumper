@@ -39,11 +39,11 @@ namespace Jumper_Idaho
                 return false;
                 
             }
-            else if(tries == 4){ // once the tries equates to 4 return a false value to check jumper and end game
+            else if(tries == 3){ // once the tries equates to 3 return a false value to check jumper and end game
                 return false;
             }
             else {
-                return true; // if less than 4 tries made . continue trying
+                return true; // if less than 3 tries made . continue trying
             }
         }
 
@@ -53,7 +53,7 @@ namespace Jumper_Idaho
             }
             else if(tries == 4){
                 Parachute.RemoveRange(0,1);
-                Parachute[0] = "DEAD MAN GAME OVER ";
+                Parachute[0] = "             ?";
 
 
             }

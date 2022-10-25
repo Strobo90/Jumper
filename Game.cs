@@ -8,7 +8,7 @@ namespace Jumper_Idaho
 
         private TerminalService terminalService = new TerminalService();
         public word hiddenWord = new word();
-        private parachute parachute = new parachute();
+        private parachute parachute = new parachute();// hidden by encupsulation
         public int tries = 0;
         public int numberOfGuesses = 0;
 
@@ -18,10 +18,6 @@ namespace Jumper_Idaho
 
         public string currentGuess = "test";
 
-
-        /// <summary>
-        /// Constructs a new instance of Director.
-        /// </summary>
         public Game() // call to the Game function. call is publicly accessible
         {
         }
@@ -35,7 +31,7 @@ namespace Jumper_Idaho
                 DoOutputs();
             }
         }
-                private void StartUp()// calls stattup and this is encupsulated by private keyword. It does returnany value. ... void
+                private void StartUp()// calls startup and this is encupsulated by private keyword. It does returnany value. ... void
         {
             Console.WriteLine("\n The Names of the Buildings at BYU- Idaho");// prints to console
             chosenWord = hiddenWord.pullWord();
@@ -54,14 +50,14 @@ namespace Jumper_Idaho
             }
             guessedLetters.Add(currentGuess[0]);    
         }
-        private void DoUpdates()
+        private void DoUpdates()// Updates the number ofguesse and tries
         {
             numberOfGuesses = guessedLetters.Count;
             int usedTries = hiddenWord.compare(guessedLetters, numberOfGuesses);
             tries = tries + usedTries;
             isPlaying = parachute.checkJumper(hiddenWord.guess, tries);
         }
-                private void DoOutputs()
+                private void DoOutputs()// hidden from the public by encupsulation key word
         {
             Console.WriteLine("\n");
             if (isPlaying){
