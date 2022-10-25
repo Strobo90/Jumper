@@ -3,11 +3,9 @@
 // letters here if guessed  for the first time will appear onthe terminal
 
 spori
-austin
 rigby
 mccay
 stc
 ricks
 hart
 smith
-hinckely

@@ -13,15 +13,15 @@ namespace Jumper_Idaho
         {
             
             
-            Parachute.Add("                  ___");
-            Parachute.Add("                 /___\\");
-            Parachute.Add("                 \\   /");
-            Parachute.Add("                  \\ /");
-            Parachute.Add("                    O");
-            Parachute.Add("                   /|\\");
-            Parachute.Add("                   / \\");
+            Parachute.Add(" ___");
+            Parachute.Add("/___\\");
+            Parachute.Add("\\   /");
+            Parachute.Add(" \\ /");
+            Parachute.Add("  O");
+            Parachute.Add(" /|\\");
+            Parachute.Add(" / \\");
 
-            Parachute.Add(" !!! Guess wrong You die |  Guess Smart you live !!!");
+            Parachute.Add("\n !!! Guess wrong You die | \n Guess Smart you live !!!");
         }
 
         public bool checkInput(List<char> guesses, string currentguess){
