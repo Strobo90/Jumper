@@ -2,10 +2,8 @@ using System;
 using System.Collections.Generic;
 
 namespace Jumper_Idaho
-{       public class Game
-    {
-
-        private bool isPlaying = true;
+{       public class Game       // creates the Game class
+    {        private bool isPlaying = true; // Private key word encupsulates is playing boolean
         private string chosenWord;
 
         private TerminalService terminalService = new TerminalService();
@@ -24,16 +22,12 @@ namespace Jumper_Idaho
         /// <summary>
         /// Constructs a new instance of Director.
         /// </summary>
-        public Game()
+        public Game() // call to the Game function. call is publicly accessible
         {
         }
-
-        /// <summary>
-        /// Starts the game by running the main game loop.
-        /// </summary>
-        public void StartGame()
+        public void StartGame() // 
         {
-            StartUp();
+            StartUp(); // if is playing give a true value  call the below function in the block in their order
             while (isPlaying)
             {
                 GetInputs();
@@ -43,29 +37,25 @@ namespace Jumper_Idaho
         }
 
 
-        private void StartUp()
+        private void StartUp()// calls stratup ans this is encupsulated by private keyword. It does returnany value. ... void
         {
-            Console.WriteLine("\n The Names of the Buildings at BYU- Idaho");
+            Console.WriteLine("\n The Names of the Buildings at BYU- Idaho");// prints to console
             chosenWord = hiddenWord.pullWord();
             hiddenWord.listWord(chosenWord);
             hiddenWord.createHiddenWord();
             hiddenWord.printGuess();
         }
-        private void GetInputs()
+        private void GetInputs()// call this function
         {
             Console.WriteLine("\n");
             parachute.printJumper(tries);
-            checkInput = true;
+            checkInput = true;// accesses the player input and checks if it is on the sample txt doc
             while (checkInput){
                 currentGuess = terminalService.ReadGuess("\n Now Make an Educated Guess.Which letter of the Alphabet do you pick \n Choosing the same letter twice is not allowed. \n Shoot Your shot===>>>: ");
                 checkInput = parachute.checkInput(guessedLetters, currentGuess);
             }
-            guessedLetters.Add(currentGuess[0]);
-            
-
+            guessedLetters.Add(currentGuess[0]);    
         }
-
-
         private void DoUpdates()
         {
             numberOfGuesses = guessedLetters.Count;
@@ -73,14 +63,12 @@ namespace Jumper_Idaho
             tries = tries + usedTries;
             isPlaying = parachute.checkJumper(hiddenWord.guess, tries);
         }
-
-
-        private void DoOutputs()
+                private void DoOutputs()
         {
             Console.WriteLine("\n");
             if (isPlaying){
                 hiddenWord.printGuess();
-            }
+            }// enter this block if the above if statement is false
             else {
                 parachute.printJumper(tries);
                 hiddenWord.printAnswer();
