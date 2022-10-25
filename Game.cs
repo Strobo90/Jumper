@@ -35,9 +35,7 @@ namespace Jumper_Idaho
                 DoOutputs();
             }
         }
-
-
-        private void StartUp()// calls stratup ans this is encupsulated by private keyword. It does returnany value. ... void
+                private void StartUp()// calls stattup and this is encupsulated by private keyword. It does returnany value. ... void
         {
             Console.WriteLine("\n The Names of the Buildings at BYU- Idaho");// prints to console
             chosenWord = hiddenWord.pullWord();
@@ -50,7 +48,7 @@ namespace Jumper_Idaho
             Console.WriteLine("\n");
             parachute.printJumper(tries);
             checkInput = true;// accesses the player input and checks if it is on the sample txt doc
-            while (checkInput){
+            while (checkInput){ // if checkinput is true  execute the below statements
                 currentGuess = terminalService.ReadGuess("\n Now Make an Educated Guess.Which letter of the Alphabet do you pick \n Choosing the same letter twice is not allowed. \n Shoot Your shot===>>>: ");
                 checkInput = parachute.checkInput(guessedLetters, currentGuess);
             }
